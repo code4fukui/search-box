@@ -1,0 +1,47 @@
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+search-box {
+  --color: gray;
+
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid var(--color);
+  background-color: white;
+  padding: 12px 5px;
+  height: 30px;
+  margin: 1em 0em;
+  border-radius: 20px;
+  width: 20em;
+  overflow: hidden;
+  text-align: left;
+}
+search-box input[type="text"] {
+  border: none;
+  background: none;
+  font-size: 130%;
+  height: 1.8em;
+  width: 12em;
+  padding-left: 0.6em;
+}
+search-box input[type="text"]:focus {
+  outline: 0;
+}
+search-box button {
+  vertical-align: bottom;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: FontAwesome;
+  border: none;
+  background: var(--color);
+  color: #fff;
+  position: absolute;
+  width: 3.5em;
+  right: 0px;
+  top: 0px;
+  outline: none;
+  height: 40px;
+  border-radius: 0 16px 16px 0;
+}
+search-box ::-webkit-input-placeholder {
+  color: var(--color);
+}
