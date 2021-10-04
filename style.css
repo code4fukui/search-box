@@ -39,8 +39,10 @@ search-box button {
   right: 0px;
   top: 0px;
   outline: none;
-  height: 40px;
+  height: 100%;
   border-radius: 0 16px 16px 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 search-box ::-webkit-input-placeholder {
   color: var(--color);
