@@ -36,11 +36,11 @@ search-box button {
   color: #fff;
   position: absolute;
   width: 3.5em;
-  right: 0px;
-  top: 0px;
+  right: -3%;
+  top: -5%;
   outline: none;
-  height: 100%;
-  border-radius: 0 16px 16px 0;
+  height: 110%;
+  border-radius: 0 20px 20px 0;
   padding-top: 0px;
   padding-bottom: 0px;
 }
